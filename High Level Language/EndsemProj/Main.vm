@@ -1,0 +1,15 @@
+function Main.main 0
+call walls.draw 0
+pop temp 0
+call pacman.draw 0
+pop temp 0
+push constant 0
+return
+call pacman.dispose 0
+pop temp 0
+call pellet.dispose 0
+pop temp 0
+call wallhit.dispose 0
+pop temp 0
+call walls.dispose 0
+pop temp 0

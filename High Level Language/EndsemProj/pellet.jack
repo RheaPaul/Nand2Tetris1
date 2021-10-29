@@ -1,0 +1,38 @@
+class pellet
+{
+	function void draw()
+	{
+	var int i;
+	do Screen.setColor(true);
+	let i=0;
+	while(i<260)
+	{
+		do Screen.drawRectangle(24+i, 24, 26+i, 26);
+		do Screen.drawRectangle(24+i, 174, 26+i, 176);
+		let i=i+20;
+	}
+
+	let i=0;
+	while(i<180)
+	{
+		do Screen.drawRectangle(64+i, 64, 66+i, 66);
+		do Screen.drawRectangle(64+i, 134, 66+i, 136);
+		let i=i+20;
+	}
+	
+	let i=0;
+	while(i<120)
+	{
+		do Screen.drawRectangle(24,44+i, 26, 46+i);
+		do Screen.drawRectangle(274,44+i, 276, 46+i);
+		let i=i+20;		
+	}
+	return;
+	}
+	method void dispose() 
+	{
+		do Memory.deAlloc(this);  
+		return;
+	}
+
+}
