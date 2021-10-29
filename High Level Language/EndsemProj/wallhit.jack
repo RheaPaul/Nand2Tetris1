@@ -1,0 +1,262 @@
+class wallhit
+{
+	function boolean ishittingleftwall(int x,int y)
+	{
+		var int speed,i;
+		let speed = 5;
+		//left wall hitting
+		let i=4;
+		while(i<196)
+		{	
+			if(((x-4-speed=9)|(x-4-speed=8)|(x-4-speed=7)|(x-4-speed=6)|(x-4-speed=5))&(y=i))
+				{return true;}
+		        let i=i+1;
+		}
+
+		let i=34;
+		while(i<166)
+		{
+			if(((x-4-speed=49)|(x-4-speed=48)|(x-4-speed=47)|(x-4-speed=46)|(x-4-speed=45))&(y=i))
+			{return true;}
+		        let i=i+1;
+		}
+
+		
+		let i=74;
+		while(i<96)
+		{
+			if(((x-4-speed=219)|(x-4-speed=218)|(x-4-speed=217)|(x-4-speed=216)|(x-4-speed=215))&(y=i))
+			{return true;}
+		        let i=i+1;
+		}
+		let i=104;
+		while(i<126)
+		{
+			if(((x-4-speed=219)|(x-4-speed=218)|(x-4-speed=217)|(x-4-speed=216)|(x-4-speed=215))&(y=i))
+			{return true;}
+		        let i=i+1;
+		}
+
+		let i=34;
+		while(i<166)
+		{
+			
+			if(((x-4-speed=259)|(x-4-speed=258)|(x-4-speed=257)|(x-4-speed=256)|(x-4-speed=255))&(y=i))
+			{return true;}
+		        let i=i+1;
+		}
+
+		let i=34;
+		while(i<56)
+		{
+			
+			if(((x-4-speed=129)|(x-4-speed=128)|(x-4-speed=127)|(x-4-speed=126)|(x-4-speed=125))&(y=i))
+			{return true;}
+		        let i=i+1;
+		}
+		
+		let i=144;
+		while(i<166)
+		{
+			if(((x-4-speed=129)|(x-4-speed=128)|(x-4-speed=127)|(x-4-speed=126)|(x-4-speed=125))&(y=i))
+			{return true;}
+		        let i=i+1;
+		}
+		//left wall hitting over.
+	return false;	
+	}
+
+	//right wall
+	function boolean ishittingrightwall(int x,int y)
+	{
+		var int speed,i;
+		let speed = 5;
+		let i=37;
+		while(i<163)
+		{
+			if(((x+4+speed=40)|(x+4+speed=41)|(x+4+speed=42)|(x+4+speed=43)|(x+4+speed=44))&(y=i))
+			{return true;}
+		        let i=i+1;
+		}
+		
+		let i=77;
+		while(i<93)
+		{
+			if(((x+4+speed=80)|(x+4+speed=81)|(x+4+speed=82)|(x+4+speed=83)|(x+4+speed=84))&(y=i))
+			{return true;}
+		        let i=i+1;
+		}
+		
+		let i=107;
+		while(i<123)
+		{
+			if(((x+4+speed=80)|(x+4+speed=81)|(x+4+speed=82)|(x+4+speed=83)|(x+4+speed=84))&(y=i))
+			{return true;}
+		        let i=i+1;
+		}
+
+		let i=37;
+		while(i<53)
+		{
+			if(((x+4+speed=170)|(x+4+speed=171)|(x+4+speed=172)|(x+4+speed=173)|(x+4+speed=174))&(y=i))
+			{return true;}
+		        let i=i+1;
+		}
+		
+		let i=147;
+		while(i<163)
+		{
+			if(((x+4+speed=170)|(x+4+speed=171)|(x+4+speed=172)|(x+4+speed=173)|(x+4+speed=174))&(y=i))
+			{return true;}
+		        let i=i+1;
+		}
+
+		let i=47;
+		while(i<153)
+		{
+			if(((x+4+speed=250)|(x+4+speed=251)|(x+4+speed=252)|(x+4+speed=253)|(x+4+speed=254))&(y=i))
+			{return true;}
+		        let i=i+1;
+		}
+
+		let i=7;
+		while(i<193)
+		{
+			if(((x+4+speed=290)|(x+4+speed=291)|(x+4+speed=292)|(x+4+speed=293)|(x+4+speed=294))&(y=i))
+			{return true;}
+		        let i=i+1;
+		}
+		return false;
+	}
+
+	//up wall
+	function boolean ishittingupwall(int x,int y)
+	{
+		var int speed,i;
+		let speed = 5;
+		let i=7;
+		while(i<293)
+		{
+			if(((y-4-speed=9)|(y-4-speed=8)|(y-4-speed=7)|(y-4-speed=6)|(y-4-speed=5))&(x=i))
+			{return true;}
+		        let i=i+1;
+		}
+		
+		let i=47;
+		while(i<133)
+		{
+			if(((y-4-speed=49)|(y-4-speed=48)|(y-4-speed=47)|(y-4-speed=46)|(y-4-speed=45))&(x=i))
+			{return true;}
+		        let i=i+1;
+		}
+		
+		let i=37;
+		while(i<133)
+		{
+			if(((y-4-speed=159)|(y-4-speed=158)|(y-4-speed=157)|(y-4-speed=156)|(y-4-speed=155))&(x=i))
+			{return true;}
+		        let i=i+1;
+		}
+
+		let i=167;
+		while(i<253)
+		{
+			if(((y-4-speed=49)|(y-4-speed=48)|(y-4-speed=47)|(y-4-speed=46)|(y-4-speed=45))&(x=i))
+			{return true;}
+		        let i=i+1;
+		}
+		
+		let i=167;
+		while(i<263)
+		{
+			if(((y-4-speed=159)|(y-4-speed=158)|(y-4-speed=157)|(y-4-speed=156)|(y-4-speed=155))&(x=i))
+			{return true;}
+		        let i=i+1;
+		}
+
+		let i=77;
+		while(i<223)
+		{
+			if(((y-4-speed=89)|(y-4-speed=88)|(y-4-speed=87)|(y-4-speed=86)|(y-4-speed=85))&(x=i))
+			{return true;}
+		        let i=i+1;
+		}
+
+		let i=77;
+		while(i<223)
+		{
+			if(((y-4-speed=119)|(y-4-speed=118)|(y-4-speed=117)|(y-4-speed=116)|(y-4-speed=115))&(x=i))
+			{return true;}
+		        let i=i+1;
+		}
+		return false;
+	}
+
+	//down wall
+	function boolean ishittingdownwall(int x,int y)
+	{
+		var int speed,i;
+		let speed = 5;
+		let i=7;
+		while(i<293)
+		{
+			if(((y+4+speed=190)|(y+4+speed=191))&(x=i))
+			{return true;}
+		        let i=i+1;
+		}
+		
+		let i=37;
+		while(i<133)
+		{
+			if(((y+4+speed=40)|(y+4+speed=41))&(x=i))
+			{return true;}
+		        let i=i+1;
+		}
+		
+		let i=47;
+		while(i<133)
+		{
+			if(((y+4+speed=150)|(y+4+speed=151))&(x=i))
+			{return true;}
+		        let i=i+1;
+		}
+
+		let i=167;
+		while(i<263)
+		{
+			if(((y+4+speed=40)|(y+4+speed=41))&(x=i))
+			{return true;}
+		        let i=i+1;
+		}
+		
+		let i=167;
+		while(i<253)
+		{
+			if(((y+4+speed=150)|(y+4+speed=151))&(x=i))
+			{return true;}
+		        let i=i+1;
+		}
+
+		let i=77;
+		while(i<223)
+		{
+			if(((y+4+speed=80)|(y-4-1=81))&(x=i))
+			{return true;}
+		        let i=i+1;
+		}
+
+		let i=77;
+		while(i<223)
+		{
+			if(((y+4+speed=110)|(y-4-speed=111))&(x=i))
+			{return true;}
+		        let i=i+1;
+		}
+		return false;
+	}
+	method void dispose() 
+	{
+		do Memory.deAlloc(this);  return;
+	}
+
+}
