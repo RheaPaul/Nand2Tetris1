@@ -1,0 +1,46 @@
+// File name: projects/09/Student/Student.jack
+class Student
+{
+	field int Aadhar_id;
+	field String Name,Branch;
+	
+	constructor Student new(int a,String b,String c)
+	{
+		let Aadhar_id=a;
+		let Name=b;
+		let Branch=c;
+		return this;
+	}
+
+	method int getEid()
+        {
+          return Aadhar_id;
+        }
+
+	method String getName()
+        {
+          return Name;
+        }
+
+	method String getBranch()
+        {
+          return Branch;
+        }
+
+	method void dispose()
+	{
+		do Memory.deAlloc(this);
+		return;
+	}
+
+	method void print()
+	{
+		do Output.printInt(Aadhar_id);
+		do Output.printString("  ");
+		do Output.printString(Name);
+		do Output.printString("  ");
+		do Output.printString(Branch);
+		do Output.println();
+		return;
+	}
+}

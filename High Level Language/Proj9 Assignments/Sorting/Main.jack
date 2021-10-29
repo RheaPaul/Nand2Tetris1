@@ -1,0 +1,51 @@
+// Sorting into ascending and descending order
+// Main file
+class Main
+{
+    function void main()
+    {
+        var Array a;
+        var int i,temp,j;
+        let a=Array.new(10);
+        let i=0;
+        while (i < 10) 
+        {
+                   let a[i] = Keyboard.readInt("Enter a number: ");
+            let i = i + 1;
+        }
+        let i=0;
+        while (i  < 10)
+        {
+            let j=i+1;
+            while (j < 10)
+            {
+                if (a[i] > a[j]) 
+                        {
+                                let temp = a[i];
+                                let a[i] = a[j];
+                                let a[j] = temp;
+                }
+                let j = j + 1;
+             }
+            let i = i + 1;
+        }
+        let i=0;
+        do Output.printString("The numbers arranged in ascending order is: ");
+        while (i < 10) 
+        {
+            do Output.printInt(a[i]);
+            do Output.printString(" ");
+            let i=i+1;
+        }
+        do Output.println();
+        do Output.printString("The numbers arranged in descending order is: ");
+        let i=9;
+        while (i > -1)
+        {
+            do Output.printInt(a[i]);
+            do Output.printString(" ");
+            let i=i-1;
+        }
+        return;
+    }
+}

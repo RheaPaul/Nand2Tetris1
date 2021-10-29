@@ -1,0 +1,59 @@
+// File name: projects/09/ListProg/Main.jack
+
+/** Demonstrates the use of the List abstraction. */
+class Main 
+{
+   	function void main() 
+	{
+		var List l,even,odd;
+		var int i,inp1,inp2;
+		let i = 0;
+		while (i<10)
+		{
+			if(l=null)
+			{
+				let inp1=Keyboard.readInt("Enter a number: ");
+				let l=List.new(inp1,null);
+				if (List.gcd(inp1,2)=2)
+				{
+					let even=List.new(inp1,null);
+				}
+				else
+				{
+					let odd=List.new(inp1,null);
+				}
+			}
+			else
+			{
+				let inp2=Keyboard.readInt("Enter a number: ");
+				let l=List.new(inp2,l);
+				if(List.gcd(inp2,2)=2)
+				{
+					let even=List.new(inp2,even);
+				}
+				else
+				{
+					let odd=List.new(inp2,odd);
+				}
+			
+			}
+			let i=i+1;
+		}
+		do Output.printString("The list is");
+		do Output.println();
+		do l.print();
+		do Output.println();
+		do Output.printString("The even numbers are: ");
+		do Output.println();
+		do even.print();
+		do Output.println();
+		do Output.printString("The odd numbers are: ");
+		do Output.println();
+		do odd.print();
+		do l.dispose();
+		do even.dispose();
+		do odd.dispose();
+     		return;
+	}
+   
+}

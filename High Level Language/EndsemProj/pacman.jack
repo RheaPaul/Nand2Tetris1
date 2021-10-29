@@ -1,0 +1,602 @@
+class pacman
+{
+	function void draw()
+	{
+		var int dir,speed,x,y,i,j,count,pelletno,time;
+		var Array top,bottom,left,right,innertop,innerbottom;
+		let top=Array.new(100);
+		let bottom=Array.new(100);
+		let left=Array.new(100);
+		let right=Array.new(100);
+		let innertop=Array.new(100);
+		let innerbottom=Array.new(100);
+		let time=160;
+		let i=0;
+		while(i<14)
+		{
+			let top[i]=1;
+			let bottom[i]=1;
+			let i=i+1;
+		}
+		let i=0;
+		while(i<10)
+		{
+			let innertop[i]=1;
+			let innerbottom[i]=1;
+			let i=i+1;
+		}
+		let i=0;
+		while(i<7)
+		{
+			let left[i]=1;
+			let right[i]=1;
+			let i=i+1;
+		}
+		let x=18;
+		let y=26;
+		let speed=5;
+		let j=0;
+		let i=0;
+		let pelletno=0;
+		let count=0;
+		do pellet.draw();
+		while(time>-1)
+		{
+			//Start pellets check
+			let pelletno=0;
+			if((x=23)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			
+			if((x=43)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=63)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=83)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=103)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=123)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=143)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			
+			if((x=163)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=183)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=203)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=223)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=243)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			if((x=263)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;	
+			//End of top pellets check
+
+
+
+			//Start of bottom pellets check
+			let pelletno=0;
+			if((x=23)&(y=176)&(bottom[pelletno]=1))
+			{
+
+					let bottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			
+			if((x=43)&(y=176)&(bottom[pelletno]=1))
+			{
+
+					let bottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=63)&(y=176)&(bottom[pelletno]=1))
+			{
+
+					let bottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=83)&(y=176)&(bottom[pelletno]=1))
+			{
+
+					let bottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=103)&(y=176)&(bottom[pelletno]=1))
+			{
+
+					let bottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=123)&(y=176)&(bottom[pelletno]=1))
+			{
+
+					let bottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=143)&(y=176)&(bottom[pelletno]=1))
+			{
+
+					let bottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			
+			if((x=163)&(y=176)&(bottom[pelletno]=1))
+			{
+
+					let bottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=183)&(y=176)&(bottom[pelletno]=1))
+			{
+
+					let bottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=203)&(y=176)&(bottom[pelletno]=1))
+			{
+
+					let bottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=223)&(y=176)&(bottom[pelletno]=1))
+			{
+
+					let bottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=243)&(y=176)&(bottom[pelletno]=1))
+			{
+
+					let bottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			if((x=1763)&(y=176)&(bottom[pelletno]=1))
+			{
+
+					let bottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			//end of bottom pellets check
+
+
+
+			//Start of innertop pellets check
+			let pelletno=0;
+			if((x=63)&(y=66)&(innertop[pelletno]=1))
+			{
+
+					let innertop[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=83)&(y=66)&(innertop[pelletno]=1))
+			{
+
+					let innertop[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=103)&(y=66)&(innertop[pelletno]=1))
+			{
+
+					let innertop[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=123)&(y=66)&(innertop[pelletno]=1))
+			{
+
+					let innertop[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=143)&(y=66)&(innertop[pelletno]=1))
+			{
+
+					let innertop[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			
+			if((x=163)&(y=66)&(innertop[pelletno]=1))
+			{
+
+					let innertop[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=183)&(y=66)&(innertop[pelletno]=1))
+			{
+
+					let innertop[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=203)&(y=66)&(innertop[pelletno]=1))
+			{
+
+					let innertop[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=223)&(y=66)&(innertop[pelletno]=1))
+			{
+
+					let innertop[pelletno]=0;
+					let count=count+1;
+			}
+			//end of innertop pellets check
+			
+				
+
+			//Start of innerbottom pellets check
+			let pelletno=0;
+			if((x=63)&(y=136)&(innerbottom[pelletno]=1))
+			{
+
+					let innerbottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=83)&(y=136)&(innerbottom[pelletno]=1))
+			{
+
+					let innerbottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=103)&(y=136)&(innerbottom[pelletno]=1))
+			{
+
+					let innerbottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=123)&(y=136)&(innerbottom[pelletno]=1))
+			{
+
+					let innerbottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=143)&(y=136)&(innerbottom[pelletno]=1))
+			{
+
+					let innerbottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			
+			if((x=163)&(y=136)&(innerbottom[pelletno]=1))
+			{
+
+					let innerbottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=183)&(y=136)&(innerbottom[pelletno]=1))
+			{
+
+					let innerbottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=203)&(y=136)&(innerbottom[pelletno]=1))
+			{
+
+					let innerbottom[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=223)&(y=136)&(innerbottom[pelletno]=1))
+			{
+
+					let innerbottom[pelletno]=0;
+					let count=count+1;
+			}
+			//end of innerbottom pellets check
+
+
+
+			//Start of right pellets check
+			let pelletno=0;
+			if((x=273)&(y=46)&(right[pelletno]=1))
+			{
+
+					let right[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=273)&(y=66)&(right[pelletno]=1))
+			{
+
+					let right[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=273)&(y=86)&(right[pelletno]=1))
+			{
+
+					let right[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=273)&(y=106)&(right[pelletno]=1))
+			{
+
+					let right[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=273)&(y=126)&(right[pelletno]=1))
+			{
+
+					let right[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			
+			if((x=273)&(y=146)&(right[pelletno]=1))
+			{
+
+					let right[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			//end of right pellets check
+
+			//Start of left pellets check
+			let pelletno=0;
+			if((x=23)&(y=46)&(left[pelletno]=1))
+			{
+
+					let left[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=23)&(y=66)&(left[pelletno]=1))
+			{
+
+					let left[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=23)&(y=86)&(left[pelletno]=1))
+			{
+
+					let left[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=23)&(y=106)&(left[pelletno]=1))
+			{
+
+					let left[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=23)&(y=126)&(left[pelletno]=1))
+			{
+
+					let left[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			
+			if((x=23)&(y=146)&(left[pelletno]=1))
+			{
+
+					let left[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			//end of left pellets check
+
+			
+			
+				
+			do Output.moveCursor(3, 46);  //row, col
+				do Output.printString("Score: ");
+			do Output.moveCursor(3, 54);
+			do Output.printInt(count*10);		
+
+			do Output.moveCursor(5, 46);  //row, col
+				do Output.printString("Time: ");
+			do Output.moveCursor(5, 54);
+			if(time/10<10)
+			{
+				do Output.moveCursor(5, 55);
+				do Screen.setColor(false);
+				}
+			do Output.printInt(time/10);
+			let time=time-1;
+
+			if(time=-1)
+			{
+				do Output.moveCursor(10, 46);  //row, col
+				do Output.printString("GAME OVER");
+			}
+
+
+
+			let dir=Keyboard.keyPressed();
+			if((wallhit.ishittingleftwall(x,y)=true)&(dir=130))
+			{
+				let dir=0;
+			}
+			if((wallhit.ishittingrightwall(x,y)=true)&(dir=132))
+			{
+				let dir=0;
+			}
+			if((wallhit.ishittingupwall(x,y)=true)&(dir=131))
+			{
+				let dir=0;
+			}
+			if((wallhit.ishittingdownwall(x,y)=true)&(dir=133))
+			{
+				let dir=0;
+			}
+			if(dir=132)
+			{
+				do Screen.setColor(false);
+				do Screen.drawCircle(x , y, 4);
+				do Screen.setColor(true);
+				do Screen.drawCircle(x + speed, y, 4);
+				let x=x+speed;
+			}
+			if(dir=130)
+			{
+				do Screen.setColor(false);
+				do Screen.drawCircle(x , y, 4);
+				do Screen.setColor(true);
+				do Screen.drawCircle(x - speed, y, 4);
+				let x=x-speed;
+			}
+			if(dir=133)
+			{
+				do Screen.setColor(false);
+				do Screen.drawCircle(x , y, 4);
+				do Screen.setColor(true);
+				do Screen.drawCircle(x , y+speed, 4);
+				let y=y+speed;
+			}
+			if(dir=131)
+			{
+				do Screen.setColor(false);
+				do Screen.drawCircle(x , y, 4);
+				do Screen.setColor(true);
+				do Screen.drawCircle(x, y-speed, 4);
+				let y=y-speed;
+			}
+
+		}
+		
+		return;
+	}
+	method void dispose() 
+	{
+		do Memory.deAlloc(this);  
+		return;
+	}
+
+}

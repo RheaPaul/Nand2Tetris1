@@ -1,0 +1,33 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/09/Average/Main.jack
+
+// Inputs some numbers and computes their average
+class Main {
+   function void main() {
+/**do Screen.drawPixel(410,155);
+	do Screen.drawPixel(415,155);
+	do Screen.drawPixel(420,155);
+	do Screen.drawPixel(410,160);
+	do Screen.drawPixel(415,160);
+	do Screen.drawPixel(420,160); */
+
+	do Screen.Rectangle(410,155,420,160);
+	do Screen.setColor(false);
+	do Screen.drawRectangle(440,180,480,185);
+	do Screen.setColor(true);
+	Screen.drawCircle(23,27,6);
+
+//do Screen.drawLine(410,155,420,155);
+//do Screen.drawLine(410,160,420,160);
+
+
+//do Screen.drawLine(410,155,420,155);
+//do Screen.drawLine(410,160,420,160);
+	
+
+     
+    return;
+   }
+}

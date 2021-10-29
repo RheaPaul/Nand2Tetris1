@@ -1,0 +1,28 @@
+// For displaying details of student
+// Main file
+class Main
+{
+	function void main()
+	{
+		var Student a,b,c,d,e;
+		let a=Student.new(2386,"Rhea","MECH");
+		let b=Student.new(265,"Leena","AIE");
+		let c=Student.new(386,"Richa","CSE");
+		let d=Student.new(1243,"Paul","BIO");
+		let e=Student.new(967,"Thea","ECE");
+                do Output.printString("Displaying student details:");
+                do Output.println();
+		do a.print();
+		do b.print();
+		do c.print();
+		do d.print();
+		do e.print();
+		do a.dispose();
+		do b.dispose();
+		do c.dispose();
+		do d.dispose();
+		do e.dispose();
+		
+		return;
+	}
+}
